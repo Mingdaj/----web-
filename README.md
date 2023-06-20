@@ -60,6 +60,11 @@ python3.9 + BeautifulSoup4 +flask + 各种库
 
 ![](https://github.com/Mingdaj/qidian-analysis/assets/130920375/e21798a6-1386-401d-bc11-818c3476aebf)
 
+6. 可视化大屏
+
+![](https://github.com/Mingdaj/qidian-analysis/assets/130920375/5c9116e8-8d77-49d3-b895-0b925c47d640)
+
+
 天下没有免费的午餐，前后端代码+部署调试搞活动，详情加QQ咨询。前10名购买半价，另外有一些学习问题也可以一起交流，买到就是赚到！
 
 QQ：2790810983
