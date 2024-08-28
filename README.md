@@ -1,5 +1,7 @@
 # qidian_analysis
 
+@author: <a src="https://github.com/yizhishiliu">shiliu</a>
+
 ### 目的
 
 本次的数据分析项目实现了数据爬取、解析、储存、分析和可视化等需求。本项目整体使用了Python语言，爬取的目标是起点中文网，目的是获得其畅销榜单的100部小说的相关信息（排行，书名，作者，书籍类型，简介，最新章节，最近更新时间和书籍链接），并在网页上进行相应的分析和可视化展示。
@@ -30,43 +32,52 @@ python3.9 + BeautifulSoup4 +flask + 各种库
 
 ### 搭建/运行
 
-1. 数据爬取(指定起止页1~30)
+1. 数据爬取(指定起止页1~20)
 
-![](https://github.com/Mingdaj/qidian-analysis/assets/130920375/c6c10518-6b4f-4034-b3dd-2053fd2e5565)
+![image](https://github.com/user-attachments/assets/a122350f-297d-415f-a399-d609a6bc4a69)
+
 
 2. 可视化展示(运行app.py后访问终端显示的链接)
 
-![](https://github.com/Mingdaj/qidian-analysis/assets/130920375/1e1a69c5-39e3-4a8a-a607-8f38559cd346)
+![image](https://github.com/user-attachments/assets/ba12741b-b4e3-4064-b3d0-429476f1083b)
+
 
 ### 效果图
 
 1. 首页(轮播图)
 
-![](https://github.com/Mingdaj/qidian-analysis/assets/130920375/a2044d75-779f-44d9-8678-02d39bd1421d)
+![image](https://github.com/user-attachments/assets/8fc0e681-cbe7-4c94-a6a4-6b61ed9113c5)
+
 
 2. 书籍(畅销榜)
 
-![](https://github.com/Mingdaj/qidian-analysis/assets/130920375/b8681286-44a1-4f69-8787-80ebf74dd97e)
+![image](https://github.com/user-attachments/assets/2ca976d1-cfde-49c3-b033-cfc818de6016)
+
+
 
 3. 柱状图(类型分布)
+
+因为后面测试清空了，后面随便爬取了几页作为演示参考，数据较少
 
 ![](https://github.com/Mingdaj/qidian-analysis/assets/130920375/e1a6a546-7d2d-4a6e-8a02-d8f6dcab992e)
 
 4. 词云
 
-![](https://github.com/Mingdaj/qidian-analysis/assets/130920375/68d292cf-8da9-4447-b78d-45b1c4bb35ec)
+![image](https://github.com/user-attachments/assets/4dbdc87f-504c-4819-9e7e-f9f65851e024)
+
 
 5. 图书类型再分类分析
 
-![](https://github.com/Mingdaj/qidian-analysis/assets/130920375/e21798a6-1386-401d-bc11-818c3476aebf)
+![image](https://github.com/user-attachments/assets/7027d3c9-1f45-4a27-94b4-8ec336529e95)
+
 
 6. 可视化大屏
+
+时间比较紧这里就随便做成了静态的，替换数据即可。如果需要动态大屏，请访问这个仓库：[https://github.com/yizhishiliu/qidian-visual](https://github.com/yizhishiliu/qidian-visual)
 
 ![](https://github.com/Mingdaj/qidian-analysis/assets/130920375/5c9116e8-8d77-49d3-b895-0b925c47d640)
 
 
-天下没有免费的午餐，前后端代码+部署调试搞活动，详情加QQ咨询。前10名购买半价，另外有一些学习问题也可以一起交流，买到就是赚到！
+天下没有免费的午餐，前后端代码+部署调试搞活动，详情加V咨询。前10名购买半价，另外有一些学习问题也可以一起交流，买到就是赚到！
 
-QQ：2790810983
-
-助理QQ：3539048933
+点我+V](https://github.com/yizhishiliu/yizhishiliu/blob/main/images/wechat.jpg)
